@@ -1,0 +1,77 @@
+.counting-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.summary-report-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: row;
+  }
+}
